@@ -83,7 +83,7 @@ ostream &operator<<(ostream &os, const ComplexNumber &c){
 	else if(c.real == 0) os << c.imag << "i";
 	else if(c.imag == 0) os << c.real;
 	else os << c.real << sign << c.imag << "i";
-    return ;
+    return os;
 }   
 
 
